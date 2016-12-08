@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="cpu_usage_view_background">#ff1884e2</color>
+    <color name="cpu_usage_view_text_color">#ff37d551</color>
+    <color name="cpu_usage_view_path_color">#ffffffff</color>
+
+</resources>
