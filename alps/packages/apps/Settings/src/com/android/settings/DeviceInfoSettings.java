@@ -117,6 +117,13 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         } else {
             getPreferenceScreen().removePreference(findPreference(KEY_SECURITY_PATCH));
         }
+        
+        /// Xunhu: add CPU usage curve function by QinTuanye at 2017-02-15 11:06:05{{&&
+		/// Description: 添加CPU使用率曲线
+		if (!XunhuOption.XUNHU_QTY_CPU_USAGE_CURVE) {
+			getPreferenceScreen().removePreference(findPreference("cpu_info"));
+		} 
+		///&&}}
 
         setValueSummary(KEY_BASEBAND_VERSION, "gsm.version.baseband");
         setStringSummary(KEY_DEVICE_MODEL, Build.MODEL + DeviceInfoUtils.getMsvSuffix());

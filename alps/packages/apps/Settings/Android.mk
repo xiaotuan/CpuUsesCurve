@@ -34,6 +34,10 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v7/appcompat/res \
     frameworks/support/v7/recyclerview/res
 LOCAL_RESOURCE_DIR += $(LOCAL_PATH)/res_ext
+# Xunhu: add CPU usage curve function by QinTuanye at 2017-02-15 11:06:05{{&&
+# Description: 添加CPU使用率曲线图资源
+LOCAL_RESOURCE_DIR += $(LOCAL_PATH)/res_xunhu
+# &&}}
 
 LOCAL_PACKAGE_NAME := Settings
 LOCAL_CERTIFICATE := platform

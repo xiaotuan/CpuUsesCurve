@@ -1,0 +1,20 @@
+<resources>
+
+	<!--		Xunhu: add CPU usage curve function by QinTuanye at 2017-02-15 11:06:05		-->
+	<!--		Description: 添加CPU使用率曲线		-->
+    <string name="cpu_stat_path">/proc/stat</string>
+    <string name="cpu_type_path">/proc/cpuinfo</string>
+    <string name="cpu_core_path">/sys/devices/system/cpu/</string>
+    <string name="cpu_max_freq_path">/sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_max_freq</string>
+    <string name="cpu_min_freq_path">/sys/devices/system/cpu/cpu0/cpufreq/getMinCpuFreq</string>
+    <string name="cpu_current_freq_path">/sys/devices/system/cpu/cpu%d/cpufreq/cpuinfo_cur_freq</string>
+    <string name="single_core">Single core</string>
+    <string name="double_core">Dual-core</string>
+    <string name="four_core">Quad core</string>
+    <string name="eight_core">Eight cores</string>
+    <string name="ten_nuclei">Ten nuclei</string>
+    <string name="sixteen_cores">Sixteen cores</string>
+    <string name="cpu_info_title">CPU</string>
+    <!--		Xunhu: end add CPU usage curve function by QinTuanye at 2017-02-15 11:06:05		-->
+
+</resources>
